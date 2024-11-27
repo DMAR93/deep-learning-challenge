@@ -2,7 +2,7 @@
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures
 # **Report in the Neural Model for Alphabear Soup** #
 
-## Overview##
+## Overview ##
 The propouse of this analysis is to develope and evaluate a deep learning model to predict the success of the charitable donation for Alphabet Soup. By analyzing past donation data.
 
 ## Results ##
@@ -14,7 +14,7 @@ The propouse of this analysis is to develope and evaluate a deep learning model 
  ## Removed Variables: ## 
  after analizing the different columns and how it affects accuracy we found that apart of **NAME and EIN** also **STATUS** beacuse of its low variance and **SPECIAL_CONSIDERATIONS ** because it doesnt impact the model it was better to drop those columns.
 
- ## Compiling, training and Evaluating the model##
+ ## Compiling, training and Evaluating the model ##
 ### Neuron Layers
 - Layer 1: 254 Neurons with Relu activation function
 - Layer 2: 128 Neurons with tanh activation function
